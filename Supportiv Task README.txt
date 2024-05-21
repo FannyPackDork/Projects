@@ -24,9 +24,6 @@ The ROUGE score is chosen as an evaluation metric. To be more precise, the F1 sc
 3. Less Sensitive to Stopwords
 While ROUGE-L has a limited assessment of fluency compared to other metrics, a medical question answering model should give more importance to factual accuracy. Although Human Evaluation would be the best metric to judge a question-answering model, the f1 score of the ROUGE-L is a strong contender.
 
-Model Performance:
-The model however did not perform satisfactorily as looked at by the rouge score but the prompts gave distinct believable answers as seen in the code. 
-
 Potential Improvements:
 Potential improvements that can be done to the model for better answers include:
 1. Providing the model with context, during training and evaluation.
